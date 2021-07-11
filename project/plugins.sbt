@@ -1,10 +1,19 @@
-addSbtPlugin("org.xerial.sbt" % "sbt-pack" % "0.6.2")
+resolvers += Classpaths.sbtPluginReleases
 
-addSbtPlugin("de.johoop" % "jacoco4sbt" % "2.1.6")
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.10")
 
-addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.7.4")
+addSbtPlugin("org.xerial.sbt" % "sbt-pack" % "0.12")
 
-addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "0.2.1")
+addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "2.3")
 
-addSbtPlugin("com.typesafe.sbt" % "sbt-pgp" % "0.8.3")
+addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.1.2")
 
+addSbtPlugin("com.github.gseitz" % "sbt-release" % "1.0.10")
+
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.6.0")
+
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "5.2.4")
+
+addSbtPlugin("com.eed3si9n" % "sbt-unidoc" % "0.4.2")
+
+addSbtPlugin("org.scalastyle" % "scalastyle-sbt-plugin" % "1.0.0")

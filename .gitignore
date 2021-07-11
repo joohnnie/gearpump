@@ -1,6 +1,7 @@
 # Scala
 *.class
 *.log
+site/
 .cache/
 .history/
 .lib/
@@ -12,6 +13,8 @@ project/boot/
 project/plugins/project/
 .scala_dependencies
 .worksheet
+.bloop/
+.metals/
 
 # Java
 *.jar
@@ -28,10 +31,13 @@ out/
 .idea_modules/
 atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
+intellij
 
 # Eclipse
 .metadata
-bin/
+.project
+.cache
+.classpath
 tmp/
 *.tmp
 *.bak
@@ -43,3 +49,5 @@ local.properties
 .externalToolBuilders/
 *.launch
 .target
+
+nohup.out
